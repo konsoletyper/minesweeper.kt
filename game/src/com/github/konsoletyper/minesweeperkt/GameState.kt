@@ -1,4 +1,4 @@
-package com.jetbrains.kotlin.minesweeper
+package com.github.konsoletyper.minesweeperkt
 
 enum class GameState {
     IN_PROGRESS,

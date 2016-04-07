@@ -1,4 +1,4 @@
-package com.jetbrains.kotlin.commons
+package com.github.konsoletyper.minesweeperkt
 
 class MutableGrid<T>(
     override val rowCount: Int,

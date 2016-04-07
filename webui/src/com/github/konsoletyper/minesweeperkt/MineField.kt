@@ -1,6 +1,5 @@
-package com.jetbrains.kotlin.minesweeper
+package com.github.konsoletyper.minesweeperkt
 
-import com.jetbrains.kotlin.commons.MutableGrid
 import org.w3c.dom.HTMLDivElement
 import org.w3c.dom.HTMLElement
 import kotlin.browser.document
@@ -13,7 +12,7 @@ class MineField(private val parent: HTMLElement, val game: Game) {
 
     init {
         with(container.style) {
-            border = "1px solid $BORDER_COLOR"
+            border = "1px solid ${BORDER_COLOR}"
             position = "relative"
         }
         recreateCellElements()

@@ -1,4 +1,4 @@
-package com.jetbrains.kotlin.commons
+package com.github.konsoletyper.minesweeperkt
 
 interface Grid<T> {
     operator fun get(row: Int, column: Int): T

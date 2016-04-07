@@ -1,7 +1,4 @@
-package com.jetbrains.kotlin.minesweeper
-
-import com.jetbrains.kotlin.commons.Grid
-import com.jetbrains.kotlin.commons.MutableGrid
+package com.github.konsoletyper.minesweeperkt
 
 class Game() {
     var desiredRows = 20
