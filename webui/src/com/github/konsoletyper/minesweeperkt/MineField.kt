@@ -44,10 +44,9 @@ class MineField(private val parent: HTMLElement, val game: Game) {
         cellElements.cellData.forEach { it.wrapper.removeFromParent() }
         cellElements = createGrid(game.cells.rowCount, game.cells.columnCount)
 
-        with(container.style) {
-            width = "${CELL_SIZE * cellElements.columnCount}px"
-            height = "${CELL_SIZE * cellElements.columnCount}px"
-        }
+        // TODO: use `with` when bug gets fixed
+        container.style.width = "${CELL_SIZE * cellElements.columnCount}px"
+        container.style.height = "${CELL_SIZE * cellElements.columnCount}px"
     }
 
     private fun createGrid(rows: Int, columns: Int) = MutableGrid(rows, columns) { row, column ->

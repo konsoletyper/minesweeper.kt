@@ -2,5 +2,10 @@
 <project version="4">
   <component name="Kotlin2JsCompilerArguments">
     <option name="sourceMap" value="true" />
+    <option name="moduleKind" value="commonjs" />
+    <option name="main" value="call" />
+  </component>
+  <component name="KotlinCompilerSettings">
+    <option name="outputDirectoryForJsLibraryFiles" value="../lib" />
   </component>
 </project>
